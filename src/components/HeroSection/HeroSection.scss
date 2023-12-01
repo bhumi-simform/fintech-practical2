@@ -1,0 +1,70 @@
+
+.image-content-section {
+    &.banner-section{
+        padding: 0;
+        h1{
+            margin-bottom: 24px;
+        }
+        p{
+            margin-bottom: 40px;
+        }
+        .left-block{
+            position: relative;
+            &:after{
+                position: absolute;
+                content: " ";
+                left: 0;
+                bottom: 0;
+                border-radius: 630.339px;
+                background: rgba(255, 153, 0, 0.08);
+                filter: blur(41.60652160644531px);
+                height: 72%;
+                width: 100%;
+            }
+            &:before{
+                position: absolute;
+                content: " ";
+                width: 122px;
+                height: 97px;
+                right: -10px;
+                top: calc(50% - 40px);
+                transform: translateY(-50%);
+                background-image: url(/src/assets/images/arrow.svg);
+            }
+            .ant-image {
+                height: 100%;
+                img{
+                    min-height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .right-block{
+            padding: 87px 0 97px 37px;
+            @media(max-width:1199px){
+                padding: 67px 0 67px 37px;
+            }
+        }
+    }
+}
+.car-brand-section{
+    padding: 56px 0;
+    background-color: #1053F3;
+}
+// header 
+.site-header{
+    padding: 30px 0;
+    a.ant-typography{
+        color: #757B8A;
+        transition: all 0.5s;
+        font-size: 16px;
+        text-underline-offset: 6px;
+        &:hover{
+            color: #1053F3;
+            text-decoration: underline;
+        }
+        &:active{
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.card-benifits-section{
+    .best-ways-send-money-wrapper{
+        margin: 0;
+    }
+    .left-block{
+        .content-wrapper{
+            margin-bottom: 36px;
+        }
+    }
+    .ant-spin-container{
+        flex-direction: column;
+        .ant-list-item{
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            border-block-end:0;
+            flex-direction: row !important;
+            + .ant-list-item{
+                border-block-end:0;
+                margin-top: 72px;
+            }
+            .content-wrapper{
+                padding-left: 24px;
+                max-width: 404px;
+            }
+            .img-wrapper{
+                max-width: 56px;
+                flex:  0 0 56px;
+            }
+           
+        }
+    }
+}
